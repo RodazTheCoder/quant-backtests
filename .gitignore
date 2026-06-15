@@ -1,0 +1,24 @@
+# Ambiente virtual Python
+venv/
+.venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos gerados pelo backtest
+backtest_result.png
+*.png
+
+# Arquivos do sistema
+.DS_Store
+
+# Variáveis de ambiente (API keys, senhas — NUNCA subir isso)
+.env
+*.env
+
+# IDEs
+.vscode/
+.idea/
